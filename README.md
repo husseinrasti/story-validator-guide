@@ -142,16 +142,18 @@ If the key is not displayed, it might show the private key path instead, like th
 #### You can view it with:
 `cat /root/.story/story/config/private_key.txt; echo`
 
-## Finally, note that your node will require IP tokens for staking. Transfer the tokens to your node address and stake them with the following commands:
+### Finally, note that your node will require IP tokens for staking. Transfer the tokens to your node address and stake them with the following commands:
 
 #### 1- Create the staking amount:
 `story validator create - stake 1000000000000000000 - private-key "your_private_key"`
 
 #### 2- Stake the tokens:
-`story validator stake \`
-` - validator-pubkey "VALIDATOR_PUB_KEY_IN_BASE64" \`
-` - stake 1000000000000000000 \`
-` - private-key xxxxxxxxxxxxxx`
+```
+story validator stake \
+- validator-pubkey "VALIDATOR_PUB_KEY_IN_BASE64" \
+- stake 1000000000000000000 \
+- private-key xxxxxxxxxxxxxx 
+```
 
 > The stake amount should be entered in wei, where 1 IP token equals 1000000000000000000 wei.
 
