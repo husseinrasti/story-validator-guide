@@ -162,7 +162,7 @@ If the key is not displayed, it might show the private key path instead, like th
 `curl localhost:26657/status | jq`
 
 You can copy the hex-code from the resulting JSON and paste it on [this website](https://testnet.story.explorers.guru/) to view your validator’s name.
-Conclusion
-![Validator info](/image.png)
+![Validator info](image.png "validator info")
 
+## Conclusion
 By setting up a Story validator, you’ve contributed to the security and decentralization of a pioneering platform. Your role ensures the reliability of Story’s network, empowering creators to manage and monetize their intellectual property transparently and securely.
